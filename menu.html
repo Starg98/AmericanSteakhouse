@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Menu | American Steakhouse</title>
+    <!-- Main css -->
+    <link rel="stylesheet" href="/css/styles.css" />
+    <!-- Fontawesome icons -->
+    <link rel="stylesheet" href="/css/all.min.css" />
+  </head>
+  <body>
+    <!-- Mobile navigation -->
+ <div class="mobilenav">
+  <!-- Navigation links -->
+  <div id="navLinks">
+    <a href="about.html">About</a>
+    <a href="menu.html" id="current-page">Menu</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="careers.html">Careers</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <!-- Bar icon to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fas fa-bars"></i>
+  </a>
+ </div>
+   <!-- End Mobile - Start desktop -->
+    <section class="sidebar">
+      <div class="sidebar-container">
+        <div class="logo">
+          <a href="index.html"
+            ><img src="/Images/logo.png" alt="American Steakhouse"
+          /></a>
+        </div>
+        <nav class="desktop-nav">
+          <ul class="desktop-nav-ul">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html" id="current-page">Our Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+          </ul>
+        </nav>
+        <div class="table-reservation">
+          <p class="table-reservation-title">Table reservation</p>
+          <p class="phonenumber">+91-8818288666</p>
+          <p class="opening-hours">
+            Monday - Sunday <br />
+            10:00 AM - 11:00 PM
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="main">
+      <div class="social"></div>
+        <a class="facebook-text">Facebook</a><i class="fab fa-facebook" id="facebook-icon"></i>
+        <a class="instagram-text">Instagram</a><i class="fab fa-instagram" id="instagram-icon"></i>
+      </div>
+      <p class="menu-title">
+        Menu
+      </p>  
+      <div class="menu-items">
+          <h2 class="foods-heading">Appetizers</h2>
+            <table>
+               <tr>
+                 <td>Escargots</td>
+                 <td>$13</td>
+              </tr>
+              <tr>
+                 <td>Crab Cakes</td>
+                 <td>$19</td>
+              </tr>
+              <tr>
+                 <td>B.B.Q. Rib Starter</td>
+                 <td>$18</td>
+              </tr>
+              <tr>
+                 <td>Cheese And Garlic Toast</td>
+                 <td>$9</td>
+             </tr>
+            </table>
+          </div>
+          <h2 class="foods-heading">Entrees</h2>
+            <table>
+               <tr>
+                 <td>Green Peppercon Steak</td>
+                 <td>$62</td>
+              </tr>
+              <tr>
+                 <td>Wild Seared Scallops</td>
+                 <td>$45</td>
+              </tr>
+              <tr>
+                 <td>Chicked Breast</td>
+                 <td>$25</td>
+              </tr>
+              <tr>
+                 <td>Barbequed Back Ribs</td>
+                 <td>$36</td>
+             </tr>
+            </table>
+            <h2 class="foods-heading">Special</h2>
+            <table>
+               <tr>
+                 <td>New York Cut</td>
+                 <td>$64</td>
+              </tr>
+              <tr>
+                 <td>Filet Mignon</td>
+                 <td>$84</td>
+              </tr>
+              <tr>
+                 <td>Top Sirloin</td>
+                 <td>$36</td>
+              </tr>
+            </table>
+          
+      </div>
+    </section>
+    <script src="js/main.js"></script>
+  </body>
+</html>
