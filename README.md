@@ -3,7 +3,7 @@
 ### Restaurant website made using **HTML, CSS, Lightbox2, and JavaScript**. Website is fully responsive and project is non-commercial.
 
 ## Access 
-### Website has been deployed via Netlify: url here 
+### Website has been deployed via Netlify: https://compassionate-haibt-af4856.netlify.com/
 
 ## Inspiration
 ### Inspiration to code this website came from this design on Dribbble: https://dribbble.com/shots/7217748-SteakHouse 
